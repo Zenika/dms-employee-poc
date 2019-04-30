@@ -5,7 +5,7 @@ jobs:
     docker:
       - image: circleci/node:10
     environment:
-      PRISMA_SERVICE: $SERVICE
+      PRISMA_SERVICE: dms-employee-poc
       PRISMA_STAGE: dev
     steps:
       - checkout
